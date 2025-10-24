@@ -1,0 +1,697 @@
+{
+  "reset_password": {
+    "answer": ["Go to Settings > Account > Reset Password."],
+    "tags": ["account", "security", "password"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "change_email": {
+    "answer": ["Go to Settings > Profile > Edit Email."],
+    "tags": ["account", "profile", "settings"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "enable_2fa": {
+    "answer": ["Go to Settings > Security > Two-Factor Authentication and follow the prompts to enable 2FA."],
+    "tags": ["account", "security"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "unlock_account": {
+    "answer": ["Contact IT support.", "Verify identity.", "Follow instructions to unlock the account."],
+    "tags": ["account", "security", "login"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "password_complexity_issue": {
+    "answer": ["Ensure password meets minimum length.", "Include uppercase, lowercase, numbers, and symbols.", "Avoid commonly used passwords."],
+    "tags": ["account", "security", "password"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "account_lockout": {
+    "answer": ["Wait for lockout period to expire or contact IT.", "Verify identity to unlock.", "Reset password if needed."],
+    "tags": ["account", "security", "login"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "login_failed": {
+    "answer": ["Verify username and password.", "Check Caps Lock.", "Reset password if forgotten.", "Ensure network connection."],
+    "tags": ["account", "login", "authentication"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "email_not_received": {
+    "answer": ["Check spam/junk folder.", "Verify email address is correct.", "Ensure email server is online.", "Contact IT if problem persists."],
+    "tags": ["account", "email", "communication"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "account_deletion_request": {
+    "answer": ["Contact IT or support team.", "Verify identity.", "Follow data retention and deletion policies."],
+    "tags": ["account", "profile", "security"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "account_recovery": {
+    "answer": ["Use account recovery tool.", "Provide recovery email or phone number.", "Follow recovery instructions."],
+    "tags": ["account", "security", "login"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "two_factor_not_working": {
+    "answer": ["Check time settings on device.", "Ensure authenticator app is synced.", "Try backup codes.", "Contact IT if problem persists."],
+    "tags": ["account", "security", "2fa"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "forgot_security_questions": {
+    "answer": ["Contact IT or support.", "Provide identity verification.", "Reset security questions through portal."],
+    "tags": ["account", "security"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "multi_account_conflict": {
+    "answer": ["Sign out from all devices.", "Clear cache.", "Log in with correct account.", "Contact IT if issue persists."],
+    "tags": ["account", "login", "conflict"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "account_permissions_issue": {
+    "answer": ["Check assigned roles.", "Verify permissions in system settings.", "Request necessary access from IT."],
+    "tags": ["account", "permissions", "security"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "session_timeout": {
+    "answer": ["Log in again.", "Check browser cookies.", "Enable 'Remember Me' if allowed.", "Clear cache if recurring."],
+    "tags": ["account", "session", "login"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "wifi_not_connecting": {
+    "answer": ["Restart router and modem.", "Forget the network and reconnect.", "Ensure device is within range.", "Update WiFi drivers."],
+    "tags": ["network", "wifi", "connection"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": ["https://support.example.com/wifi-troubleshoot"]
+  },
+  "vpn_setup": {
+    "answer": ["Download VPN client.", "Import configuration files or enter credentials.", "Connect to VPN server.", "Verify connection."],
+    "tags": ["network", "vpn", "connection"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": ["https://support.example.com/vpn-setup"]
+  },
+  "ethernet_not_working": {
+    "answer": ["Check cable connections.", "Try a different port.", "Restart router and computer.", "Update network drivers."],
+    "tags": ["network", "ethernet", "connection"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "medium",
+    "links": []
+  },
+  "slow_internet": {
+    "answer": ["Restart modem/router.", "Close unnecessary apps consuming bandwidth.", "Check for malware.", "Contact ISP if issue persists."],
+    "tags": ["network", "internet", "performance"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "dns_issues": {
+    "answer": ["Flush DNS cache.", "Check DNS settings.", "Restart device.", "Try a different DNS server like 8.8.8.8."],
+    "tags": ["network", "dns", "connection"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "medium",
+    "links": []
+  },
+  "mobile_hotspot_issue": {
+    "answer": ["Ensure hotspot is turned on.", "Check mobile data is enabled.", "Reconnect device to hotspot.", "Restart both devices."],
+    "tags": ["network", "mobile", "hotspot"],
+    "platforms": ["iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "network_adapter_error": {
+    "answer": ["Open Device Manager.", "Locate network adapter.", "Update driver or reinstall.", "Restart device."],
+    "tags": ["network", "adapter", "troubleshooting"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "medium",
+    "links": []
+  },
+  "router_not_detected": {
+    "answer": ["Check router power and cables.", "Restart router.", "Reset router to factory settings if needed.", "Contact ISP if unresolved."],
+    "tags": ["network", "router", "connectivity"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "ip_conflict": {
+    "answer": ["Release and renew IP address.", "Restart router.", "Assign static IP if needed.", "Check connected devices for conflicts."],
+    "tags": ["network", "ip", "conflict"],
+    "platforms": ["Windows", "Mac", "Linux"],
+    "priority": "medium",
+    "links": []
+  },
+  "no_internet_access": {
+    "answer": ["Check physical connections.", "Restart modem/router.", "Run network troubleshooter.", "Verify ISP service status."],
+    "tags": ["network", "internet", "connection"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "wifi_signal_weak": {
+    "answer": ["Move closer to the router.", "Remove obstructions.", "Restart router.", "Consider WiFi extender."],
+    "tags": ["network", "wifi", "performance"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "vpn_disconnects": {
+    "answer": ["Check internet connection.", "Restart VPN client.", "Change VPN server.", "Update VPN client to latest version."],
+    "tags": ["network", "vpn", "connection"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "wifi_password_wrong": {
+    "answer": ["Verify password is correct.", "Forget network and reconnect.", "Check for typos or case sensitivity.", "Restart router if needed."],
+    "tags": ["network", "wifi", "password"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "network_sharing_issue": {
+    "answer": ["Ensure file and printer sharing is enabled.", "Check firewall settings.", "Restart devices.", "Verify network permissions."],
+    "tags": ["network", "sharing", "troubleshooting"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "medium",
+    "links": []
+  },
+  "wifi_authentication_failed": {
+    "answer": ["Forget network and reconnect.", "Check router security settings.", "Restart router.", "Update network drivers."],
+    "tags": ["network", "wifi", "authentication"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "router_firmware_update": {
+    "answer": ["Check router manufacturer website.", "Download latest firmware.", "Follow instructions to update.", "Restart router after update."],
+    "tags": ["network", "router", "update"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "medium",
+    "links": []
+  },
+  "proxy_settings_issue": {
+    "answer": ["Open network settings.", "Check proxy configuration.", "Disable proxy if not needed.", "Restart browser or app."],
+    "tags": ["network", "proxy", "settings"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "medium",
+    "links": []
+  },
+  "slow_vpn_connection": {
+    "answer": ["Switch to a closer VPN server.", "Restart VPN client.", "Check internet speed.", "Close bandwidth-heavy apps."],
+    "tags": ["network", "vpn", "performance"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "network_timeout_errors": {
+    "answer": ["Check internet connection.", "Restart router and computer.", "Run network troubleshooter.", "Check firewall settings."],
+    "tags": ["network", "connection", "timeout"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "printer_offline": {
+    "answer": ["Ensure printer is powered on and connected.", "Restart printer and computer.", "Check printer queue for stuck jobs.", "Reinstall printer drivers."],
+    "tags": ["hardware", "printer", "network"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "high",
+    "links": []
+  },
+  "printer_jam": {
+    "answer": ["Open printer and remove any paper jams.", "Check rollers and clean if necessary.", "Restart printer.", "Test print a page."],
+    "tags": ["hardware", "printer", "troubleshooting"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "high",
+    "links": []
+  },
+  "keyboard_not_working": {
+    "answer": ["Check connection (wired/wireless).", "Replace batteries if wireless.", "Restart device.", "Try a different keyboard if available."],
+    "tags": ["hardware", "keyboard", "troubleshooting"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "high",
+    "links": []
+  },
+  "mouse_not_working": {
+    "answer": ["Check connection or batteries.", "Reconnect mouse.", "Test on another USB port.", "Restart device."],
+    "tags": ["hardware", "mouse", "troubleshooting"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "high",
+    "links": []
+  },
+  "screen_flickering": {
+    "answer": ["Check cable connections.", "Update graphics drivers.", "Adjust refresh rate.", "Test with a different monitor."],
+    "tags": ["hardware", "display", "troubleshooting"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "high",
+    "links": []
+  },
+  "camera_not_working": {
+    "answer": ["Check camera permissions.", "Ensure camera is not used by another app.", "Update drivers or OS.", "Restart device."],
+    "tags": ["hardware", "camera", "troubleshooting"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "bluetooth_not_connecting": {
+    "answer": ["Turn off and on Bluetooth.", "Forget paired devices and reconnect.", "Restart device.", "Update drivers or OS."],
+    "tags": ["hardware", "bluetooth", "connection"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": ["https://support.example.com/bluetooth"]
+  },
+  "external_drive_not_detected": {
+    "answer": ["Check connection and cable.", "Try a different USB port.", "Check Disk Management or Finder.", "Update drivers if needed."],
+    "tags": ["hardware", "storage", "troubleshooting"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "medium",
+    "links": []
+  },
+  "speaker_not_working": {
+    "answer": ["Check volume settings.", "Ensure correct audio output is selected.", "Restart device.", "Update audio drivers."],
+    "tags": ["hardware", "audio", "troubleshooting"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "medium",
+    "links": []
+  },
+  "microphone_not_working": {
+    "answer": ["Check microphone permissions.", "Select correct input device.", "Restart app or device.", "Update audio drivers."],
+    "tags": ["hardware", "audio", "microphone"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "scanner_not_working": {
+    "answer": ["Ensure scanner is powered on and connected.", "Restart device and scanner.", "Update scanner drivers.", "Test with another app."],
+    "tags": ["hardware", "scanner", "troubleshooting"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "medium",
+    "links": []
+  },
+  "monitor_black_screen": {
+    "answer": ["Check cable connections.", "Test monitor with another device.", "Update graphics drivers.", "Restart computer."],
+    "tags": ["hardware", "display", "troubleshooting"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "high",
+    "links": []
+  },
+  "headphones_not_detected": {
+    "answer": ["Check connection or Bluetooth pairing.", "Restart device.", "Update audio drivers.", "Test with another headset."],
+    "tags": ["hardware", "audio", "troubleshooting"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "touchscreen_not_responding": {
+    "answer": ["Restart device.", "Clean screen and remove obstructions.", "Update drivers or OS.", "Perform calibration if supported."],
+    "tags": ["hardware", "touchscreen", "troubleshooting"],
+    "platforms": ["Windows", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "device_overheating": {
+    "answer": ["Check for blocked vents.", "Restart device.", "Reduce heavy usage.", "Update drivers and firmware."],
+    "tags": ["hardware", "temperature", "maintenance"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "laptop_not_charging": {
+    "answer": ["Check power adapter and cable.", "Try different outlet.", "Inspect battery and connectors.", "Update BIOS and drivers."],
+    "tags": ["hardware", "battery", "troubleshooting"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "high",
+    "links": []
+  },
+  "ram_not_detected": {
+    "answer": ["Check RAM seating.", "Test with individual modules.", "Update BIOS.", "Replace faulty RAM if needed."],
+    "tags": ["hardware", "memory", "troubleshooting"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "high",
+    "links": []
+  },
+  "hard_drive_failure": {
+    "answer": ["Backup important data.", "Run diagnostic tools.", "Replace failing drive.", "Restore data from backup."],
+    "tags": ["hardware", "storage", "troubleshooting"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "high",
+    "links": []
+  },
+  "fan_not_working": {
+    "answer": ["Check fan connection.", "Clean dust and debris.", "Restart device.", "Replace fan if necessary."],
+    "tags": ["hardware", "cooling", "troubleshooting"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "medium",
+    "links": []
+  },
+  "graphics_card_not_detected": {
+    "answer": ["Check PCI slot and connections.", "Update graphics drivers.", "Test with another GPU if available.", "Restart computer."],
+    "tags": ["hardware", "graphics", "troubleshooting"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "high",
+    "links": []
+  },
+  "app_crashing": {
+    "answer": ["Close the app completely.", "Restart device.", "Check for updates.", "Reinstall the app if necessary."],
+    "tags": ["software", "application", "troubleshooting"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "software_install_fail": {
+    "answer": ["Ensure system meets requirements.", "Run installer as administrator.", "Disable antivirus temporarily.", "Try reinstalling."],
+    "tags": ["software", "installation", "troubleshooting"],
+    "platforms": ["Windows", "Mac", "Linux"],
+    "priority": "high",
+    "links": []
+  },
+  "browser_not_loading": {
+    "answer": ["Check internet connection.", "Clear cache and cookies.", "Disable extensions.", "Restart browser."],
+    "tags": ["software", "browser", "troubleshooting"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "email_sync_issue": {
+    "answer": ["Check internet connection.", "Verify account credentials.", "Restart email client."],
+    "tags": ["software", "email", "sync"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "zoom_audio_issue": {
+    "answer": ["Check microphone permissions.", "Select correct input/output devices in Zoom.", "Restart Zoom.", "Update Zoom app."],
+    "tags": ["software", "zoom", "audio"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "zoom_video_issue": {
+    "answer": ["Check camera permissions.", "Select correct camera in Zoom settings.", "Restart Zoom.", "Update Zoom app."],
+    "tags": ["software", "zoom", "video"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "office_not_responding": {
+    "answer": ["Close all Office apps.", "Restart device.", "Update Office suite.", "Repair Office installation."],
+    "tags": ["software", "office", "troubleshooting"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "high",
+    "links": []
+  },
+  "office_install_error": {
+    "answer": ["Check system requirements.", "Disable antivirus temporarily.", "Run installer as admin.", "Reinstall Office."],
+    "tags": ["software", "office", "installation"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "high",
+    "links": []
+  },
+  "app_update_fail": {
+    "answer": ["Check internet connection.", "Restart device.", "Clear app cache.", "Try reinstalling app."],
+    "tags": ["software", "application", "update"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "browser_extension_crash": {
+    "answer": ["Disable extensions one by one.", "Restart browser.", "Clear browser cache.", "Update browser."],
+    "tags": ["software", "browser", "troubleshooting"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "medium",
+    "links": []
+  },
+  "file_not_opening": {
+    "answer": ["Check file extension.", "Ensure required software is installed.", "Try opening with a different app.", "Restart device."],
+    "tags": ["software", "file", "troubleshooting"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "pdf_not_opening": {
+    "answer": ["Ensure PDF reader is installed.", "Update PDF reader.", "Try opening another PDF.", "Reinstall PDF reader if necessary."],
+    "tags": ["software", "pdf", "troubleshooting"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "email_attachment_fail": {
+    "answer": ["Check file size limits.", "Verify attachment format.", "Try sending via different method.", "Restart email client."],
+    "tags": ["software", "email", "attachment"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "calendar_sync_issue": {
+    "answer": ["Check internet connection.", "Verify account settings.", "Restart calendar app.", "Re-add account if needed."],
+    "tags": ["software", "calendar", "sync"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "software_crash_on_startup": {
+    "answer": ["Restart device.", "Check for software updates.", "Run as administrator.", "Reinstall software if issue persists."],
+    "tags": ["software", "application", "troubleshooting"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "high",
+    "links": []
+  },
+  "app_permission_denied": {
+    "answer": ["Check OS app permissions.", "Grant necessary access.", "Restart app.", "Restart device."],
+    "tags": ["software", "application", "permissions"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "software_license_error": {
+    "answer": ["Verify license key.", "Ensure software is activated.", "Contact vendor for support.", "Reinstall if needed."],
+    "tags": ["software", "license", "activation"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "medium",
+    "links": []
+  },
+  "update_os_failure": {
+    "answer": ["Check internet connection.", "Ensure sufficient storage.", "Restart device.", "Retry update."],
+    "tags": ["software", "os", "update"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "app_not_installing_on_mobile": {
+    "answer": ["Check OS version compatibility.", "Clear app store cache.", "Restart device.", "Try reinstalling the app."],
+    "tags": ["software", "mobile", "installation"],
+    "platforms": ["iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "app_freezing": {
+    "answer": ["Force close the app.", "Restart device.", "Update the app.", "Reinstall if necessary."],
+    "tags": ["software", "application", "performance"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "slow_computer": {
+    "answer": ["Close unused apps.", "Check for malware.", "Clear temporary files and run disk cleanup.", "Consider hardware upgrade if needed."],
+    "tags": ["performance", "maintenance"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "medium",
+    "links": []
+  },
+  "low_storage_space": {
+    "answer": ["Delete unnecessary files.", "Empty recycle bin/trash.", "Uninstall unused applications.", "Run disk cleanup tools."],
+    "tags": ["maintenance", "storage"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "medium",
+    "links": []
+  },
+  "backup_data": {
+    "answer": ["Connect external or cloud storage.", "Select files/folders to backup.", "Start backup and verify completion."],
+    "tags": ["maintenance", "backup"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "update_os": {
+    "answer": ["Go to System Settings.", "Check for updates.", "Install updates.", "Restart device."],
+    "tags": ["maintenance", "update"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "disk_cleanup": {
+    "answer": ["Open Disk Cleanup (Windows) or Storage Management (Mac).", "Select files to delete.", "Confirm cleanup.", "Restart device if needed."],
+    "tags": ["maintenance", "storage", "cleanup"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "medium",
+    "links": []
+  },
+  "defragment_hard_drive": {
+    "answer": ["Open defragmentation tool.", "Select the drive to defragment.", "Start process.", "Restart device after completion."],
+    "tags": ["maintenance", "performance", "storage"],
+    "platforms": ["Windows"],
+    "priority": "medium",
+    "links": []
+  },
+  "clear_cache_browser": {
+    "answer": ["Open browser settings.", "Go to Privacy & Security > Clear browsing data.", "Select cache and cookies.", "Click Clear Data."],
+    "tags": ["maintenance", "software", "browser"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "remove_malware": {
+    "answer": ["Run antivirus scan.", "Use malware removal tools.", "Restart device.", "Update antivirus definitions."],
+    "tags": ["maintenance", "security", "malware"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "high",
+    "links": []
+  },
+  "optimize_startup": {
+    "answer": ["Open task manager/startup manager.", "Disable unnecessary startup programs.", "Restart device.", "Monitor performance improvements."],
+    "tags": ["maintenance", "performance"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "medium",
+    "links": []
+  },
+  "check_disk_health": {
+    "answer": ["Run disk check utility (CHKDSK for Windows).", "Analyze S.M.A.R.T. status.", "Replace failing drives if necessary."],
+    "tags": ["maintenance", "hardware", "storage"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "high",
+    "links": []
+  },
+  "remove_temp_files": {
+    "answer": ["Open temporary file folder.", "Delete unnecessary temporary files.", "Empty recycle bin.", "Restart device."],
+    "tags": ["maintenance", "performance", "storage"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "medium",
+    "links": []
+  },
+  "check_for_updates": {
+    "answer": ["Open system update settings.", "Check for software and driver updates.", "Install updates.", "Restart device if prompted."],
+    "tags": ["maintenance", "update", "performance"],
+    "platforms": ["Windows", "Mac", "iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "rebuild_index_search": {
+    "answer": ["Open indexing options.", "Select drives or folders to index.", "Rebuild index.", "Wait for completion and restart device."],
+    "tags": ["maintenance", "performance", "search"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "medium",
+    "links": []
+  },
+  "system_restore": {
+    "answer": ["Open System Restore tool.", "Select restore point.", "Follow prompts to restore system.", "Restart device."],
+    "tags": ["maintenance", "recovery", "performance"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "high",
+    "links": []
+  },
+  "resource_monitoring": {
+    "answer": ["Open task manager or activity monitor.", "Check CPU, memory, and disk usage.", "Close high-resource processes if needed.", "Consider upgrading hardware."],
+    "tags": ["maintenance", "performance", "monitoring"],
+    "platforms": ["Windows", "Mac"],
+    "priority": "medium",
+    "links": []
+  },
+  "reset_network_settings_mobile": {
+    "answer": ["Go to Settings > General > Reset > Reset Network Settings.", "Confirm the reset.", "Reconnect to WiFi networks.", "Re-enter VPN or mobile configurations if needed."],
+    "tags": ["mobile", "network", "reset"],
+    "platforms": ["iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "mobile_app_crash": {
+    "answer": ["Force close the app.", "Restart the device.", "Check for app updates.", "Reinstall the app if necessary."],
+    "tags": ["mobile", "application", "troubleshooting"],
+    "platforms": ["iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "battery_drain_mobile": {
+    "answer": ["Check battery usage in settings.", "Close background apps.", "Reduce screen brightness.", "Update device OS."],
+    "tags": ["mobile", "battery", "performance"],
+    "platforms": ["iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "screen_unresponsive": {
+    "answer": ["Restart device.", "Remove screen protector if interfering.", "Perform hard reset if necessary.", "Update OS."],
+    "tags": ["mobile", "display", "troubleshooting"],
+    "platforms": ["iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "mobile_camera_issue": {
+    "answer": ["Check camera permissions.", "Restart camera app.", "Clean lens.", "Update OS or camera app."],
+    "tags": ["mobile", "camera", "troubleshooting"],
+    "platforms": ["iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "mobile_bluetooth_issue": {
+    "answer": ["Turn Bluetooth off and on.", "Forget device and reconnect.", "Restart phone.", "Update OS."],
+    "tags": ["mobile", "bluetooth", "connection"],
+    "platforms": ["iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "mobile_notifications_not_working": {
+    "answer": ["Check notification settings.", "Ensure Do Not Disturb is off.", "Restart device.", "Update apps and OS."],
+    "tags": ["mobile", "notifications", "settings"],
+    "platforms": ["iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "mobile_wifi_issue": {
+    "answer": ["Toggle WiFi off and on.", "Forget network and reconnect.", "Restart device.", "Update OS."],
+    "tags": ["mobile", "wifi", "network"],
+    "platforms": ["iPhone", "Android"],
+    "priority": "high",
+    "links": []
+  },
+  "mobile_storage_full": {
+    "answer": ["Delete unnecessary files.", "Clear app cache.", "Uninstall unused apps.", "Move files to cloud or external storage."],
+    "tags": ["mobile", "storage", "maintenance"],
+    "platforms": ["iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  },
+  "mobile_slow_performance": {
+    "answer": ["Restart device.", "Close background apps.", "Clear cache.", "Update OS."],
+    "tags": ["mobile", "performance", "maintenance"],
+    "platforms": ["iPhone", "Android"],
+    "priority": "medium",
+    "links": []
+  }
+}
+
+
