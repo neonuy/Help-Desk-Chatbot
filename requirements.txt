@@ -1,4 +1,3 @@
-fastapi
-uvicorn
-fuzzywuzzy[speedup]
-python-dotenv
+rapidfuzz
+plotly
+streamlit
